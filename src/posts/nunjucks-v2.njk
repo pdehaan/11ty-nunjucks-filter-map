@@ -1,0 +1,12 @@
+---
+title: Nunjucks v2 (nested props)
+order: 4
+---
+
+<dl>
+  <dt><code>fileSlug</code>:</dt>
+  <dd><pre>{{ collections.posts | map2("fileSlug") | inspect | safe }}</pre></dd>
+
+  <dt><code>data.title</code>:</dt>
+  <dd><pre>{{ collections.posts | map2("data.title") | inspect | safe }}</pre></dd>
+</dl>

@@ -1,0 +1,7 @@
+<nav>
+  <ol>
+    {%- for page in collections.posts %}
+    <li><a href="{{ page.url | url }}">{{ page.data.title }}</a></li>
+    {%- endfor %}
+  </ol>
+</nav>

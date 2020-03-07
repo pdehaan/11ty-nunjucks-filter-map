@@ -1,0 +1,12 @@
+---
+title: Nunjucks v1 (polyfill)
+order: 2
+---
+
+<dl>
+  <dt><code>fileSlug</code>:</dt>
+  <dd><pre>{{ collections.posts | map("fileSlug") | inspect | safe }}</pre></dd>
+
+  <dt><code>data.title</code>:</dt>
+  <dd><pre>{{ collections.posts | map("data.title") | inspect | safe }}</pre></dd>
+</dl>

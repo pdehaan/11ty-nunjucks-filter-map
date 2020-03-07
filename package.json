@@ -1,0 +1,26 @@
+{
+  "name": "11ty-nunjucks-filter-map",
+  "description": "Polyfill liquid `map` filter into Nunjucks.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-nunjucks-filter-map/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "lodash.get": "^4.4.2"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-nunjucks-filter-map#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-nunjucks-filter-map.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

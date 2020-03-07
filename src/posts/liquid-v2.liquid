@@ -1,0 +1,12 @@
+---
+title: Liquidjs v2 (nested props)
+order: 3
+---
+
+<dl>
+  <dt><code>fileSlug</code>:</dt>
+  <dd><pre>{{ collections.posts | map2: "fileSlug" | inspect }}</pre></dd>
+
+  <dt><code>data.title</code>:</dt>
+  <dd><pre>{{ collections.posts | map2: "data.title" | inspect }}</pre></dd>
+</dl>
